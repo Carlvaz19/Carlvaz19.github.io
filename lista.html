@@ -1,0 +1,241 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<Style type="text/css">
+	*{
+	    margin: 0;
+	    padding: 0;
+	 }
+header  {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #F95658;
+}
+nav  {
+    width: 0px;
+    background-color: #E59193;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+main  {
+    height: auto;
+    background-color: #420A0B;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer  {
+    height: 80px;
+    background-color: #800608;
+}
+     
+header, nav, main, footer {
+    margin: 0 auto;
+    width: 1200px;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+main section {
+    width: 900px;
+    height: auto;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: #EFDEDE;
+}
+header h1  {
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #F3CCCC;
+    font-size: 72px;
+}
+footer h6 {
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #F1C2DC;
+    font-size: 24px;
+}
+main section ol , main section ul{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.box_u {
+    background-color: #655DC7;
+    color: #F4E8E8;
+}
+.pox_a {
+    background-color: #5D3B92;
+    color: #C4C1F4;
+}
+#box_u2 {
+}
+#box_u2 {
+    background-color: #32824A;
+}
+#lista_uno {
+}
+.box_u #lista_uno li {
+    list-style-type: lower-alpha;
+}
+#lis_tres {
+}
+.box_u #lis_tres li {
+    list-style-image: url(../Imagenes/rosa.png);
+}
+#navegacion {
+}
+#menu li {
+    height: 30px;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 20px;
+    margin-right: 10px;
+    color: #E9C2C2;
+    font-size: 18px;
+    vertical-align: middle;
+    background-color: #A9C9D0;
+    text-align: center;
+    width: 100px;
+    border-radius: 50px;
+    border: 5px solid #2F90AD;
+	}
+    #menu li a:link {
+    color: #256861;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+    }
+    #menu li a:hover {
+    color: #8EE5C0;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    background-color: #5EB5A6;
+    font-size: 20px;
+    }
+</Style>	
+</head>
+
+<body>
+<header>
+  <h1>Listas en HTML</h1>
+</header>
+<nav>
+  <ul id="menu">
+    <li><a href="formatos_texto.html">Formatos </a></li>
+    <li><a href="lista.html">Listas</a></li>
+	<li><a href="tablas.html" target="new">Tablas</a></li>
+	<li><a href="enlaces.html">Enlaces</a></li>
+	<li><a href="imagenes.html">Imagenes</a></li>
+  </ul>
+</nav>
+<main>
+  <section class="pox_a">
+    <h2><i>Listas sin ordenar o desordenadas</i></h2>
+    <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro fuga labore, illum eum assumenda. Error veniam ipsum ut libero assumenda maiores, expedita consequatur veritatis facilis inventore cumque non ad temporibus, accusantium fugiat distinctio blanditiis rem unde optio, illum mollitia voluptatibus quae dolores quas pariatur. Accusantium provident eaque nisi, tempore hic!</b></p>
+  <ul>
+    <li>Puebla</li>	  
+	<li>Tlaxcala</li> 
+	<li>Guerrero</li>
+	<li>Veracruz</li> 
+	<li>CDMX</li>  
+  </ul>
+  </section>
+  <section class="box_u">
+    <h2 style="color:
+#456125">Listas ordenadas</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus iusto perferendis qui provident dolores, praesentium numquam cum et, aspernatur nulla minus ab in, pariatur. <mark>Magni at harum iusto hic numquam nemo eius reprehenderit iure. Architecto, temporibus iste iure doloremque quo, est alias corporis fugit quos suscipit sit! Corporis saepe repudiandae recusandae excepturi eos cumque vitae sint laboriosam architecto dolorum illo debitis ipsum ducimus itaque natus explicabo facere quam, id blanditiis? Culpa sit iusto magnam minima aliquid quaerat accusantium.</mark> Alias, aut, distinctio. Debitis quam, ut in repudiandae. Consectetur amet ipsa autem, cumque asperiores, quam. Molestias laborum tenetur, quos, aut eum omnis.</p>
+    <ol>
+	  <li>Zacatecas</li>  
+	  <li>Colima</li>
+	  <li>Puebla</li>	
+      <li>Tabasco</li>
+	  <li>Aguascalientes</li>
+	</ol>
+	</section>
+  <section class="pox_a" id="box_u2">
+    <h2>Listas mixtas</h2>
+    <p><del>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi enim, explicabo. Fuga assumenda, voluptatibus atque velit dolorum, numquam porro quaerat voluptates a! A id numquam deleniti aliquid commodi distinctio voluptas!</del></p>
+   <ol>
+      <li>Aguascalientes</li>
+	  <li>Colima</li>
+	  <li>Puebla
+	     <ul>
+			<li>Acajete</li> 
+			<li>Atlixco</li>
+			<li>Cholula</li>
+			<li>Tepeaca</li>
+			<li>Chachapa</li> 
+			<li>Puebla
+				<ul>
+				  <li>San Manuel</li>	
+				  <li>San Bartolo</li>
+				  <li>Tres Cruces</li>
+				  <li>Bugambilias</li>
+				</ul>
+			</li>
+		 </ul> 
+	  </li>
+	  <li>Veracruz</li>
+	  <li>Zacatecaz</li>
+   </ol>
+	</section>
+  <section class="box_u">
+    <h2>Listas...</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam atque quidem dolores vel temporibus eaque esse ducimus aperiam debitis dignissimos suscipit iusto minus, corporis quis, incidunt tempora animi modi provident doloribus voluptates tenetur! Non, repellendus accusantium sed doloribus! Quas numquam sapiente, impedit quod ducimus deleniti omnis vitae in aliquam earum?</p>
+	  <ul id="lista_uno">
+		  <li>Elementos de lista</li>
+		  <li>Elementos de lista</li>
+		  <li>Elementos de lista</li>
+		  <li>Elementos de lista</li>
+		  <li>Elementos de lista</li>
+	  </ul>
+  </section>
+  <section class="pox_a">
+    <h2>Listas...</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam atque quidem dolores vel temporibus eaque esse ducimus aperiam debitis dignissimos suscipit iusto minus, corporis quis, incidunt tempora animi modi provident doloribus voluptates tenetur! Non, repellendus accusantium sed doloribus! Quas numquam sapiente, impedit quod ducimus deleniti omnis vitae in aliquam earum?</p>
+	  <ul>
+		  <li>Elementos de lista</li>
+		  <li>Elementos de lista
+		      <ul>
+				  <li>Subelementos de lista</li>
+				  <li>Subelementos de lista</li>
+				  <li>Subelementos de lista</li>
+			  </ul>
+		  </li>
+		  <li>Elementos de lista</li>
+		  <li>Elementos de lista</li>
+		  <li>Elementos de lista</li>
+	  </ul>
+    </section>
+  <section class="box_u">
+    <h2>Listas...</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam atque quidem dolores vel temporibus eaque esse ducimus aperiam debitis dignissimos suscipit iusto minus, corporis quis, incidunt tempora animi modi provident doloribus voluptates tenetur! Non, repellendus accusantium sed doloribus! Quas numquam sapiente, impedit quod ducimus deleniti omnis vitae in aliquam earum?</p>
+    <ol id="lis_tres">
+		<li>Elementos de lista</li>
+		<li>Elementos de lista</li>
+		<li>Elementos de lista</li>
+		<li>Elementos de lista</li>
+		<li>Elementos de lista</li>
+		<li>Elementos de lista</li>
+	</ol>
+	</section>
+	<!--Shortcut1(section>h2+p)*3-->
+	
+</main>
+<footer>
+  <h6>Elaborado por Carlos Enrique Pablo Vázquez</h6>
+</footer>
+</body>
+</html>
